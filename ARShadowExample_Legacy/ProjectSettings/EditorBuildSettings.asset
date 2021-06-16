@@ -4,5 +4,10 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
-  m_configObjects: {}
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/ARShadowExample.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  m_configObjects:
+    UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 633ad4d1619924ddfa9abd31f465eaf6, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 3947702515a7541c0aee93c3084f2943, type: 2}
